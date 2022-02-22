@@ -19,9 +19,9 @@ from transformers import pipeline, set_seed
 
 # Settings
 random_seed = 42
-max_length = 30
-num_return_sequences = 5
-initial_sentence = "Once upon a time a girl wanted to be an astronaut"
+max_length = 300
+num_return_sequences = 3
+fromp inputprompt import *
 
 # Create generator that uses GPT-2
 generator = pipeline('text-generation', model='gpt2')
